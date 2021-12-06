@@ -12,7 +12,6 @@ import (
 )
 
 type Ping struct {
-	c        chan int
 	listener *icmp.PacketConn
 
 	ErrorHandler                  func()
